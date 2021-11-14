@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -std=c++11 -g -O2 -Wall -I include
 
-all: cleanrun
+all: mintree
 
 run: mintree
 	./mintree
